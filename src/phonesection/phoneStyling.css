@@ -43,6 +43,7 @@ Variables
   --max-width: 1170px;
   --fixed-width: 620px;
 }
+
 /*
 =============== 
 Global Styles
@@ -56,6 +57,7 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -64,12 +66,15 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -79,38 +84,49 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }
+
 h1 {
   font-size: 3rem;
 }
+
 h2 {
   font-size: 2rem;
 }
+
 h3 {
   font-size: 1.25rem;
 }
+
 h4 {
   font-size: 0.875rem;
 }
+
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
   }
+
   h2 {
     font-size: 2.5rem;
   }
+
   h3 {
     font-size: 1.75rem;
   }
+
   h4 {
     font-size: 1rem;
   }
+
   body {
     font-size: 1rem;
   }
+
   h1,
   h2,
   h3,
@@ -118,9 +134,10 @@ p {
     line-height: 1;
   }
 }
+
 /*  global classes */
-.no-select{
-  
+.no-select {
+
   position: absolute;
   top: 0;
   left: 0;
@@ -129,6 +146,7 @@ p {
   transform: translate(-50%, 10%);
   pointer-events: none;
 }
+
 /* section */
 .section {
   position: relative;
@@ -136,6 +154,7 @@ p {
   overflow: hidden;
   background: var(--bg-light);
 }
+
 @media screen and (min-width: 992px) {
   .section {
     width: 100%;
@@ -145,6 +164,7 @@ p {
     background: var(--bg-light);
   }
 }
+
 /*
 =============== 
 Slider
@@ -154,19 +174,22 @@ Slider
   text-align: center;
   margin-bottom: 2rem;
 }
+
 .title h2 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
 }
+
 .title span {
   font-size: 0.85em;
   color: var(--clr-primary-5);
   margin-right: 1rem;
   font-weight: 700;
 }
-.SoloPhone{
+
+.SoloPhone {
   margin: 0 auto;
   margin-top: 4rem;
   max-width: 100vw;
@@ -177,18 +200,18 @@ Slider
   display: block;
 }
 
-.phoneimg{
+.phoneimg {
   height: auto;
   position: relative;
   width: 100%;
   display: block;
   position: relative;
-  transform: scale(1.35, 1.35);    
-    pointer-events: none;
+  transform: scale(1.35, 1.35);
+  pointer-events: none;
   z-index: 1;
 }
 
-.SoloPhone h4{
+.SoloPhone h4 {
   font-family: Noi Grotesk, sans-serif;
   position: absolute;
   bottom: -5em;
@@ -200,7 +223,8 @@ Slider
   z-index: 0;
   line-height: 1.1;
 }
-.phoneDiv{
+
+.phoneDiv {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,8 +232,9 @@ Slider
   margin-top: -5em;
 
 }
+
 .section-center {
-  
+
   z-index: 2;
   background: transparent;
   margin: 0 auto;
@@ -222,14 +247,15 @@ Slider
   display: block;
   overflow: hidden;
 }
-.sectionIntro{
+
+.sectionIntro {
   display: block;
   width: 100%;
   order: 2;
   position: relative;
 }
 
-.section-center h2{
+.section-center h2 {
   font-family: Stencil Std, fantasy;
   color: black;
   line-height: 1.2;
@@ -239,11 +265,13 @@ Slider
   font-size: 80px;
   letter-spacing: normal;
 }
+
 svg:not(:root) {
   overflow: hidden;
 }
-.section-center svg {  
-  fill: none;  
+
+.section-center svg {
+  fill: none;
   position: absolute;
   top: 0;
   background-color: #222;
@@ -253,7 +281,8 @@ svg:not(:root) {
   transform: translate(-50%, 10%);
   pointer-events: none;
 }
-.keyFeatures {     
+
+.keyFeatures {
   background: transparent;
   z-index: 2;
   width: calc(100% + 4em);
@@ -263,7 +292,8 @@ svg:not(:root) {
   display: flex;
   flex-wrap: wrap;
 }
-.feature-section{
+
+.feature-section {
   background: transparent;
   z-index: 2;
   margin: 0 auto;
@@ -277,36 +307,37 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-.feature-section h1{
+.feature-section h1 {
   font-family: Stencil Std, fantasy;
-    color: black;
-    line-height: 1.2;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-    font-size: 80px;
-    letter-spacing: normal;
+  color: black;
+  line-height: 1.2;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-size: 80px;
+  letter-spacing: normal;
 
 }
 
-.feature-section h3{
+.feature-section h3 {
   font-family: Noi Grotesk, sans-serif;
   margin-top: 1em;
-    color: var(--black);
-    font-size: 1.25em;
-    line-height: 1;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
+  color: var(--black);
+  font-size: 1.25em;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
-.feature-section p{
+
+.feature-section p {
   font-family: Noi Grotesk, sans-serif;
   font-size: 0.9em;
   line-height: 1.5;
   color: var(--black);
 }
 
-.SolokeyFeature{
+.SolokeyFeature {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -314,22 +345,26 @@ svg:not(:root) {
   margin-top: 2em;
   margin-left: 4em;
 }
+
 .logo-img {
   margin-bottom: 1rem;
   width: 150px;
   height: 150px;
   object-fit: contain;
 }
+
 article h4 {
   text-transform: uppercase;
   color: var(--clr-primary-5);
   margin-bottom: 0.25rem;
 }
+
 .title {
   text-transform: capitalize;
   margin-bottom: 0.75rem;
   color: var(--clr-grey-3);
 }
+
 .text {
   max-width: 35em;
   margin: 0 auto;
@@ -337,11 +372,13 @@ article h4 {
   line-height: 2;
   color: var(--clr-grey-5);
 }
+
 .icon {
   font-size: 3rem;
   margin-top: 1rem;
   color: var(--clr-primary-5);
 }
+
 .prev,
 .next {
   position: absolute;
@@ -359,20 +396,25 @@ article h4 {
   cursor: pointer;
   transition: var(--transition);
 }
+
 .prev:hover,
 .next:hover {
   background: var(--clr-primary-5);
 }
+
 .prev {
   left: 0;
 }
+
 .next {
   right: 0;
 }
+
 @media (min-width: 800px) {
   .text {
     max-width: 45em;
   }
+
   .prev,
   .next {
     width: 2rem;
@@ -380,6 +422,7 @@ article h4 {
     font-size: 1.5rem;
   }
 }
+
 article {
   position: relative;
   top: 0;
@@ -388,6 +431,7 @@ article {
   height: 100%;
   opacity: 0;
 }
+
 article.activeSlideStart {
   opacity: 1;
   transform: translateX(-100);
@@ -416,6 +460,7 @@ article.activeSlideLast {
 article.lastSlide {
   transform: translateX(-150%);
 }
+
 article.nextSlide {
   transform: translateX(150%);
 }
