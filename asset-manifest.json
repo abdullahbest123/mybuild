@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/mybuild/static/css/main.4f576de0.chunk.css",
-    "main.js": "/mybuild/static/js/main.482d024c.chunk.js",
-    "main.js.map": "/mybuild/static/js/main.482d024c.chunk.js.map",
-    "runtime-main.js": "/mybuild/static/js/runtime-main.7d17de9c.js",
-    "runtime-main.js.map": "/mybuild/static/js/runtime-main.7d17de9c.js.map",
-    "static/css/2.952977b2.chunk.css": "/mybuild/static/css/2.952977b2.chunk.css",
-    "static/js/2.8b354bc9.chunk.js": "/mybuild/static/js/2.8b354bc9.chunk.js",
-    "static/js/2.8b354bc9.chunk.js.map": "/mybuild/static/js/2.8b354bc9.chunk.js.map",
-    "index.html": "/mybuild/index.html",
-    "precache-manifest.f2758344f163b9846d5e54079cd41610.js": "/mybuild/precache-manifest.f2758344f163b9846d5e54079cd41610.js",
-    "service-worker.js": "/mybuild/service-worker.js",
-    "static/css/2.952977b2.chunk.css.map": "/mybuild/static/css/2.952977b2.chunk.css.map",
-    "static/css/main.4f576de0.chunk.css.map": "/mybuild/static/css/main.4f576de0.chunk.css.map",
-    "static/js/2.8b354bc9.chunk.js.LICENSE.txt": "/mybuild/static/js/2.8b354bc9.chunk.js.LICENSE.txt",
-    "static/media/slick-theme.css": "/mybuild/static/media/slick.f97e3bbf.svg",
-    "static/media/index.css": "/mybuild/static/media/world.f5cf49f7.svg"
+    "main.css": "/webstacking.com/static/css/main.c3a96c7c.chunk.css",
+    "main.js": "/webstacking.com/static/js/main.482d024c.chunk.js",
+    "main.js.map": "/webstacking.com/static/js/main.482d024c.chunk.js.map",
+    "runtime-main.js": "/webstacking.com/static/js/runtime-main.38855b09.js",
+    "runtime-main.js.map": "/webstacking.com/static/js/runtime-main.38855b09.js.map",
+    "static/css/2.faaca9d9.chunk.css": "/webstacking.com/static/css/2.faaca9d9.chunk.css",
+    "static/js/2.da91d1f8.chunk.js": "/webstacking.com/static/js/2.da91d1f8.chunk.js",
+    "static/js/2.da91d1f8.chunk.js.map": "/webstacking.com/static/js/2.da91d1f8.chunk.js.map",
+    "index.html": "/webstacking.com/index.html",
+    "precache-manifest.37a24092d6fc9c6aebece6483b28269f.js": "/webstacking.com/precache-manifest.37a24092d6fc9c6aebece6483b28269f.js",
+    "service-worker.js": "/webstacking.com/service-worker.js",
+    "static/css/2.faaca9d9.chunk.css.map": "/webstacking.com/static/css/2.faaca9d9.chunk.css.map",
+    "static/css/main.c3a96c7c.chunk.css.map": "/webstacking.com/static/css/main.c3a96c7c.chunk.css.map",
+    "static/js/2.da91d1f8.chunk.js.LICENSE.txt": "/webstacking.com/static/js/2.da91d1f8.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/webstacking.com/static/media/slick.f97e3bbf.svg",
+    "static/media/index.css": "/webstacking.com/static/media/world.f5cf49f7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d17de9c.js",
-    "static/css/2.952977b2.chunk.css",
-    "static/js/2.8b354bc9.chunk.js",
-    "static/css/main.4f576de0.chunk.css",
+    "static/js/runtime-main.38855b09.js",
+    "static/css/2.faaca9d9.chunk.css",
+    "static/js/2.da91d1f8.chunk.js",
+    "static/css/main.c3a96c7c.chunk.css",
     "static/js/main.482d024c.chunk.js"
   ]
 }
