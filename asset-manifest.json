@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/myfirstwebsite/static/css/main.5daff3a7.chunk.css",
+    "main.js": "/myfirstwebsite/static/js/main.2392f4c5.chunk.js",
+    "main.js.map": "/myfirstwebsite/static/js/main.2392f4c5.chunk.js.map",
+    "runtime-main.js": "/myfirstwebsite/static/js/runtime-main.1e5d98a3.js",
+    "runtime-main.js.map": "/myfirstwebsite/static/js/runtime-main.1e5d98a3.js.map",
+    "static/css/2.aa62fe37.chunk.css": "/myfirstwebsite/static/css/2.aa62fe37.chunk.css",
+    "static/js/2.e2f2982c.chunk.js": "/myfirstwebsite/static/js/2.e2f2982c.chunk.js",
+    "static/js/2.e2f2982c.chunk.js.map": "/myfirstwebsite/static/js/2.e2f2982c.chunk.js.map",
+    "index.html": "/myfirstwebsite/index.html",
+    "precache-manifest.73b188c962a8e58f00c725410617881b.js": "/myfirstwebsite/precache-manifest.73b188c962a8e58f00c725410617881b.js",
+    "service-worker.js": "/myfirstwebsite/service-worker.js",
+    "static/css/2.aa62fe37.chunk.css.map": "/myfirstwebsite/static/css/2.aa62fe37.chunk.css.map",
+    "static/css/main.5daff3a7.chunk.css.map": "/myfirstwebsite/static/css/main.5daff3a7.chunk.css.map",
+    "static/js/2.e2f2982c.chunk.js.LICENSE.txt": "/myfirstwebsite/static/js/2.e2f2982c.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/myfirstwebsite/static/media/slick.f97e3bbf.svg",
+    "static/media/index.css": "/myfirstwebsite/static/media/world.f5cf49f7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e5d98a3.js",
+    "static/css/2.aa62fe37.chunk.css",
+    "static/js/2.e2f2982c.chunk.js",
+    "static/css/main.5daff3a7.chunk.css",
+    "static/js/main.2392f4c5.chunk.js"
+  ]
+}
