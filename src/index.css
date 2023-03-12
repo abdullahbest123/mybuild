@@ -1655,10 +1655,14 @@ h1.cardTitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
-  margin: 0 95px;
+  align-items: center;
+  /* margin: 0 95px; */
+  margin-bottom: 150px;
 }
 
+p.eyepara{
+  color: white;  
+}
 
 .thirdsection {
   background-image: url(./othersections/world.svg);
