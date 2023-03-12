@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 const PhoneComponent = ({ img, text, eff, key }) => {
   const [Pos, setPos] = useState(0.0);
-  const [effSpeed, setEffSpeed] = useState(0.008);
+  const [effSpeed, setEffSpeed] = useState(0.01);
   const refRef = useRef(null);
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
@@ -22,15 +22,15 @@ const PhoneComponent = ({ img, text, eff, key }) => {
     // }
     //
     if (topPos < scrollPos && topPos > 30 && topPos < 700) {
-      // console.log("top Pos: " + topPos);
-      // console.log("scroll Pos: " + scrollPos);
+      console.log("top Pos: " + topPos);
+      console.log("scroll Pos: " + scrollPos);
       // console.log("scroll - top: " + (scrollPos - topPos));
       // console.log("top - scroll: " + (topPos - scrollPos));
       // console.log(
       //   "top * scroll - top: " + (scrollPos * topPos - scrollPos) / 700
       // );
       const newpostion =
-        eff * 10 - ((scrollPos * topPos - scrollPos) / 700) * (eff * effSpeed);
+        eff * 10 - ((scrollPos * topPos - scrollPos) / 500) * (eff * effSpeed);
       setPos(newpostion);
       if (Pos < 0) {
         refRef.current.style.transform = `translate(0%, ${-Pos}%) translate3d(0px, 0px, 0px) scale(1.35, 1.35)`;
