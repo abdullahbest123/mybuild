@@ -6,21 +6,7 @@ import Keyfeature from "./keyfeatures";
 function PhoneSection() {
   const [phones, setPhones] = useState(phone);
   return (
-    <section className="section">
-      {" "}
-      <div className="feature-section">
-        <h1>Key Features</h1>
-        <div className="keyFeatures">
-          {keyfeatures.map((feautre, index) => {
-            return (
-              <Keyfeature
-                heading={feautre.heading}
-                discription={feautre.discription}
-              />
-            );
-          })}
-        </div>
-      </div>
+    <section className="section-phone">
       <svg
         className="no-select"
         width="1001"
@@ -325,7 +311,7 @@ function PhoneSection() {
           stroke-miterlimit="10"
         ></path>
       </svg>
-      <div className="section-center">
+      <div className="section-center-phone">
         <div className="sectionIntro">
           <text>How it works?</text>
 
