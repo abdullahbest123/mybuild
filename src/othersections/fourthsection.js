@@ -21,7 +21,7 @@ export default class SimpleSlider extends Component {
           <div>
             <img
               className="Fourth-divimg"
-              src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png"
+              src="xd.svg"
               height="100"
               width="100"
             ></img>
@@ -29,7 +29,7 @@ export default class SimpleSlider extends Component {
           <div>
             <img
               className="Fourth-divimg"
-              src="https://micdropagency.com/media/pages/home/c3f6419dfa-1655934961/logo-cocacola.png"
+              src="css.svg"
               height="100"
               width="100"
             ></img>
@@ -37,7 +37,7 @@ export default class SimpleSlider extends Component {
           <div>
             <img
               className="Fourth-divimg"
-              src="https://micdropagency.com/media/pages/home/c3f6419dfa-1655934961/logo-cocacola.png"
+              src="html.svg"
               height="100"
               width="100"
             ></img>
@@ -45,7 +45,7 @@ export default class SimpleSlider extends Component {
           <div>
             <img
               className="Fourth-divimg"
-              src="https://micdropagency.com/media/pages/home/c3f6419dfa-1655934961/logo-cocacola.png"
+              src="javascript.svg"
               height="100"
               width="100"
             ></img>
@@ -53,7 +53,7 @@ export default class SimpleSlider extends Component {
           <div>
             <img
               className="Fourth-divimg"
-              src="https://micdropagency.com/media/pages/home/c3f6419dfa-1655934961/logo-cocacola.png"
+              src="bootstrap.svg"
               height="100"
               width="100"
             ></img>
@@ -61,7 +61,7 @@ export default class SimpleSlider extends Component {
           <div>
             <img
               className="Fourth-divimg"
-              src="https://micdropagency.com/media/pages/home/c3f6419dfa-1655934961/logo-cocacola.png"
+              src="react.svg"
               height="100"
               width="100"
             ></img>

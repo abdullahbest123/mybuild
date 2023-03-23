@@ -6,7 +6,7 @@ function App() {
       <div className="nav-up-down scroll-down">
         <div className="back-nav"></div>
         <a href="https://micdropagency.com" className="logo">
-          <img src="fulllogo.jpg" className="logo_img"></img>
+          <img src="Logo.png" alt="not ofo" className="logo_img"></img>
         </a>
         <a href="https://micdropagency.com/contact" className="btn">
           <div className="back"></div>

@@ -39,7 +39,6 @@ function App() {
       <Section_one></Section_one>
 
       <SimpleSlider></SimpleSlider>
-      <Section_six></Section_six>
     </div>
   );
 }

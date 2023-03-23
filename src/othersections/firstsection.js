@@ -3,24 +3,24 @@ import React from "react";
 const TopHeading = "MEET OUR TEAM";
 
 const FirstPerson = {
-  img: "src/assets/abdullah.jpg",
-  title: "Michael Zaccardo",
-  post: "Vice President of Sports Partnerships",
-  link: "michael@micdropagency.com",
+  img: "abdullah.jpg",
+  title: "Muhammad Abdullah",
+  post: "Full Stack Developer",
+  link: "abdullahadil@gmail.com",
 };
 
 const SecondPerson = {
-  img: "https://micdropagency.com/media/pages/home/e451464db8-1655934960/img-0347-edit-800x.jpg",
-  title: "Jimmy Sampey",
-  post: "Vice President of Entertainment Partnerships",
-  link: "jimmy@micdropagency.com",
+  img: "abdullahkhizer.jpg",
+  title: "Abdullah Khizer",
+  post: "Web Developer",
+  link: "abdullahkhizer@gmail.com",
 };
 
 const ThirdPerson = {
-  img: "https://micdropagency.com/media/pages/home/d144db4404-1655934959/dave-skux-800x.jpg",
-  title: "Dave Chidekel",
-  post: "Co-Founder & CEO",
-  link: "dave@micdropagency.com",
+  img: "haris.jpg",
+  title: "Haris Ali",
+  post: "UI/UX Designer",
+  link: "harisali@gmail.com",
 };
 
 function Section_one() {
@@ -55,12 +55,9 @@ function Section_one() {
 const Card = (props) => {
   return (
     <div className="teamCard">
-      <div
-        className="cardImg"
-        style={{
-          backgroundImage: `${props.img}`,
-        }}
-      ></div>
+      <div className="cardImg">
+        <img src={props.img} alt="rqwrqr" width="270px"></img>
+      </div>
       <div className="cardbody">
         <h1 className="cardTitle">{props.title}</h1>
         <h4 className="cardpost">{props.post}</h4>

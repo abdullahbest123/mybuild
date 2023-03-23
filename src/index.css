@@ -1660,8 +1660,17 @@ h1.cardTitle {
   margin-bottom: 150px;
 }
 
-p.eyepara{
-  color: white;  
+p.eyepara {
+  color: white;
+}
+
+.logo_img {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: -370%;
+  overflow: hidden;
+  left: -41%;
 }
 
 .thirdsection {
